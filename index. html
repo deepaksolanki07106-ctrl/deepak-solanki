@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>मेरी पहली वेबसाइट</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightblue;
+      text-align: center;
+      padding: 30px;
+    }
+    h1 {
+      color: blue;
+    }
+    p {
+      color: darkgreen;
+      font-size: 18px;
+    }
+    button {
+      background-color: green;
+      color: white;
+      padding: 12px 20px;
+      border: 2px solid black;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>नमस्ते दीपक!</h1>
+  <p>यह मेरी खुद की बनाई हुई वेबसाइट है।</p>
+  <button onclick="showMessage()">मुझे दबाओ</button>
+
+  <script>
+    function showMessage() {
+      alert("नमस्ते दीपक! मेरी वेबसाइट चल रही है।");
+    }
+  </script>
+</body>
+</html>
